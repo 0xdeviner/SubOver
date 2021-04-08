@@ -32,7 +32,7 @@
 	{
 		"name":"desk",
 		"cname":["desk.com"],
-		"response":["Please try again or try Desk.com free for 14 days.", "Sorry, We Couldn't Find That Page"]
+		"response":["this help center no longer exists"]
 	},
 	{
 		"name":"tictail",
@@ -47,7 +47,7 @@
 	{
 		"name":"cargocollective",
 		"cname":["cargocollective.com"],
-		"response":["404 Not Found"]
+		"response":["<div class="notfound">"]
 	},
 	{
 		"name":"statuspage",
@@ -73,11 +73,6 @@
 		"name":"smartling",
 		"cname":["smartling.com"],
 		"response":["Domain is not configured"]
-	},
-	{
-		"name":"acquia",
-		"cname":["acquia.com"],
-		"response":["If you are an Acquia Cloud customer and expect to see your site at this address"]
 	},
 	{
 		"name":"fastly",
@@ -107,12 +102,12 @@
 	{
 		"name":"pingdom",
 		"cname":["stats.pingdom.com"],
-		"response":["pingdom"]
+		"response":["Public Report Not Activated"]
 	},
 	{
 		"name":"tilda",
 		"cname":["tilda.ws"],
-		"response":["Domain has been assigned"]
+		"response":["<title>Please renew your subscription</title>", "Please renew your subscription"]
 	},
 	{
 		"name":"wordpress",
@@ -253,6 +248,47 @@
 		"name":"azure",
 		"cname":["azurewebsites.net"],
 		"response":["404 Web Site not found"]
+	},
+	{
+		"name":"agilecrm",
+		"cname":["agilecrm.com"],
+		"response":["<h3>We are sorry. This page is no longer available.</h3>"] 
+	},
+	{
+		"name":"anima",
+		"cname":["animaapp.com"],
+		"response":["If this is your website and you've just created it, try refreshing in a minute"] 
+	},
+	{
+		"name":"digitalocean",
+		"cname":["ondigitalocean.app"],
+		"response":["Domain uses DO name serves with no records in DO."] 
+	},
+	{
+		"name":"Frontify",
+		"cname":["frontify.com"],
+		"response":["Oops… looks like you got lost"] 
+	},
+	{
+		"name":"Gemfury",
+		"cname":["fury.io"],
+		"response":["404: This page could not be found."] 
+	},
+	{
+		"name":"Hatenablog",
+		"cname":["hatenablog.com"],
+		"response":["404 Blog is not found"] 
+	},
+	{
+		"name":"Vercel",
+		"cname":["vercel.com", "vercel-dns.com"],
+		"response":["The deployment could not be found on Vercel."] 
+	},
+	{
+		"name":"Wufoo",
+		"cname":["wufoo.com"],
+		"response":["Profile not found"] 
 	}
+
 ]
 
